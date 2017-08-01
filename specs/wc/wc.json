@@ -1,6 +1,6 @@
 {
   "wc.create": {
-    "numCols": 4,
+    "numCols": 3,
     "version": "v1",
     "url": "/wcms-connection/connection/_create",
     "idJsonPath": "Connection[0].acknowledgementNumber",
