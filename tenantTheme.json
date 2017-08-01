@@ -2,15 +2,15 @@
   "theme" : {
     "panavel" : {
       "floatingActionButton" : {
-        "color" : "#00BCD4"
+        "color" : "#CDDC39"
       },
       "palette" : {
-        "primary1Color" : "#E91E63",
-        "primary2Color" : "#F8BBD0",
+        "primary1Color" : "#00796B",
+        "primary2Color" : "#B2DFDB",
         "textColor" : "#5f5c62"
       },
       "raisedButton" : {
-        "primaryColor" : "#00BCD4"
+        "primaryColor" : "#CDDC39"
       }
     },
     "default" : {
