@@ -1,6 +1,6 @@
 {
   "wc.create": {
-    "numCols": 4,
+    "numCols": 3,
     "version": "v1",
     "url": "/wcms-connection/connection/_create",
     "idJsonPath": "Connection[0].acknowledgementNumber",
@@ -133,6 +133,17 @@
             "type": "text",
             "isRequired": false,
             "isDisabled": true,
+            "requiredErrMsg": "",
+            "patternErrMsg": ""
+          }
+           ,{
+            "name": "myNewField",
+            "jsonPath": "Connection.property.myNewField",
+            "label": "My New Field",
+            "pattern": "",
+            "type": "text",
+            "isRequired": false,
+            "isDisabled": false,
             "requiredErrMsg": "",
             "patternErrMsg": ""
           }
