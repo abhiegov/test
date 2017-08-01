@@ -1,0 +1,30 @@
+{
+  "theme" : {
+    "default" : {
+      "floatingActionButton" : {
+        "color" : "#f58720"
+      },
+      "palette" : {
+        "primary1Color" : "blue",
+        "primary2Color" : "#f58720",
+        "textColor" : "#5f5c62"
+      },
+      "raisedButton" : {
+        "primaryColor" : "#f58720"
+      }
+    },
+    "panavel" : {
+      "floatingActionButton" : {
+        "color" : "#f58720"
+      },
+      "palette" : {
+        "primary1Color" : "#51bad9",
+        "primary2Color" : "#f58720",
+        "textColor" : "#5f5c62"
+      },
+      "raisedButton" : {
+        "primaryColor" : "#f58720"
+      }
+    }
+  }
+}
