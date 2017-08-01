@@ -136,7 +136,17 @@
             "requiredErrMsg": "",
             "patternErrMsg": ""
           }
-           
+           ,{
+            "name": "myNewField",
+            "jsonPath": "Connection.property.myNewField",
+            "label": "My New Field",
+            "pattern": "",
+            "type": "text",
+            "isRequired": false,
+            "isDisabled": false,
+            "requiredErrMsg": "",
+            "patternErrMsg": ""
+          }
         ]
       },
       {
