@@ -1,6 +1,6 @@
 {
   "wc.create": {
-    "numCols": 12 / 3,
+    "numCols": 4,
     "version": "v1",
     "url": "/wcms-connection/connection/_create",
     "idJsonPath": "Connection[0].acknowledgementNumber",
@@ -413,7 +413,7 @@
     ]
   },
   "wc.view": {
-    "numCols": 12 / 3,
+    "numCols": 4,
     "version": "v1",
     "url": "/wcms-connection/connection/_search?acknowledgementNumber={acknowledgementNumber}",
     "useTimestamp": true,
@@ -873,7 +873,7 @@
     ]
   },
   "wc.search": {
-    "numCols": "12 / 3",
+    "numCols": 4,
     "url": "/wcms-connection/connection/_search",
     "tenantIdRequired": true,
     "useTimestamp": true,
