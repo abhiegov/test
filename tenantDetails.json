@@ -1,0 +1,12 @@
+{
+  "details" : {
+    "panavel" : {
+      "name" : "Panvel",
+      "logo" : "./temp/images/panvelLogo.jpg"
+    },
+    "default" : {
+      "name" : "My City",
+      "logo" : "./temp/images/yourCity.jpg"
+    }
+  }
+}
