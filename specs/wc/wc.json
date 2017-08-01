@@ -1,16 +1,16 @@
-var dat = {
+{
   "wc.create": {
     "numCols": 12 / 3,
     "version": "v1",
     "url": "/wcms-connection/connection/_create",
     "idJsonPath": "Connection[0].acknowledgementNumber",
     "useTimestamp": true,
-    "tenantIdRequired": true, //Instead of boolean value give json path
+    "tenantIdRequired": true,
     "objectName": "Connection",
     "level": 0,
     "groups": [{
-        "label": "wc.create.groups.applicantDetails.title", //Cut short labels by taking initial path from parent
-        "name": "applicantDetails", //Follow Title case pattern
+        "label": "wc.create.groups.applicantDetails.title",
+        "name": "applicantDetails",
         "children": [],
         "multiple": false,
         "fields": [{
@@ -417,12 +417,12 @@ var dat = {
     "version": "v1",
     "url": "/wcms-connection/connection/_search?acknowledgementNumber={acknowledgementNumber}",
     "useTimestamp": true,
-    "tenantIdRequired": true, //Instead of boolean value give json path
+    "tenantIdRequired": true,
     "objectName": "Connection",
     "level": 0,
     "groups": [{
-        "label": "wc.create.groups.applicantDetails.title", //Cut short labels by taking initial path from parent
-        "name": "applicantDetails", //Follow Title case pattern
+        "label": "wc.create.groups.applicantDetails.title",
+        "name": "applicantDetails",
         "children": [],
         "multiple": false,
         "fields": [{
@@ -447,24 +447,7 @@ var dat = {
             "requiredErrMsg": "",
             "patternErrMsg": ""
           },
-          // {
-          // 	"name": "AssessmentNumber",
-          // 	"jsonPath": "Connection.property.propertyIdentifier",
-          // 	"label": "wc.create.groups.applicantDetails.propertyIdentifier",
-          // 	"pattern": "",
-          // 	"type": "number",
-          // 	"isRequired": true,
-          // 	"isDisabled": false,
-          // 	"autoCompleteUrl": "",
-          // 	"autoFillFields": {
-          // 		"NameOfApplicant": "",
-          // 		"MobileNumber": "",
-          // 		"Email": "",
-          // 		"AadharNumber": ""
-          // 	},
-          // 	"requiredErrMsg": "",//Remove required messages
-          // 	"patternErrMsg": ""
-          // },
+
           {
             "name": "NameOfApplicant",
             "jsonPath": "Connection[0].property.nameOfApplicant",
@@ -733,18 +716,6 @@ var dat = {
         "name": "Documents",
         "multiple": false,
         "fields": [
-          // {
-          // 	"name": " ",
-          // 	"jsonPath": "Connection.documents[0].fileStoreId",
-          // 	"label": "wc.create.groups.fileDetails.fields.PTaxReciept",
-          // 	"pattern": "",
-          // 	"type": "singleFileUpload",
-          // 	"isRequired": true,
-          // 	"isDisabled": false,
-          // 	"requiredErrMsg": "",
-          // 	"patternErrMsg": "",
-          // 	"defaultValue": "4567"
-          // },
           {
             "name": " ",
             "jsonPath": "Connection.documents[0].fileStoreId",
@@ -902,7 +873,7 @@ var dat = {
     ]
   },
   "wc.search": {
-    "numCols": 12 / 3,
+    "numCols": "12 / 3",
     "url": "/wcms-connection/connection/_search",
     "tenantIdRequired": true,
     "useTimestamp": true,
@@ -992,15 +963,15 @@ var dat = {
     }],
     "result": {
       "header": [{
-        label: "wc.search.result.acknowledgementNumber"
+        "label": "wc.search.result.acknowledgementNumber"
       }, {
-        label: "wc.search.result.applicationType"
+        "label": "wc.search.result.applicationType"
       }, {
-        label: "wc.search.result.usageType"
+        "label": "wc.search.result.usageType"
       }, {
-        label: "wc.search.result.connectionStatus"
+        "label": "wc.search.result.connectionStatus"
       }, {
-        label: "wc.search.result.propertyidentifier"
+        "label": "wc.search.result.propertyidentifier"
       }],
       "values": ["acknowledgementNumber", "applicationType", "property.usageType", "connectionStatus", "property.propertyidentifier"],
       "resultPath": "Connection",
@@ -1010,5 +981,3 @@ var dat = {
   }
 
 }
-
-export default dat;
