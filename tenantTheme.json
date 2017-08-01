@@ -1,6 +1,6 @@
 {
   "theme" : {
-    "default" : {
+    "panavel" : {
       "floatingActionButton" : {
         "color" : "#f58720"
       },
@@ -13,7 +13,7 @@
         "primaryColor" : "#f58720"
       }
     },
-    "panavel" : {
+    "default" : {
       "floatingActionButton" : {
         "color" : "#f58720"
       },
