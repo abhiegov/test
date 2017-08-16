@@ -6,7 +6,7 @@
     },
     "default" : {
       "name" : "Roha Muncipal Council",
-      "logo" : "./temp/images/headerLogo.jpg"
+      "logo" : "./temp/images/headerLogo.png"
     }
   }
 }
