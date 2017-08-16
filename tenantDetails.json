@@ -5,8 +5,8 @@
       "logo" : "./temp/images/panvelLogo.jpg"
     },
     "default" : {
-      "name" : "Roha Muncipal Corporation",
-      "logo" : "./temp/images/yourCity.jpg"
+      "name" : "Roha Muncipal Council",
+      "logo" : "./temp/images/headerLogo.jpg"
     }
   }
 }
