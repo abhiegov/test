@@ -5,12 +5,17 @@
       "logo" : "./temp/images/panvelLogo.jpg"
     },
     "default" : {
-      "name" : "Roha Municipal Council",
+      "name" : "Default Municipal Council",
       "logo" : "./temp/images/headerLogo.png"
     },
     "mh.roha" : {
       "name" : "Roha Municipal Council",
       "logo" : "./temp/images/headerLogo.png"
+    },
+    "mh.rohatest" : {
+      "name" : "Roha Municipal Council-Test",
+      "logo" : "./temp/images/headerLogo.png"
     }
+
   }
 }
