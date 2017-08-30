@@ -15,6 +15,22 @@
     "mh.rohatest" : {
       "name" : "Roha Municipal Council",
       "logo" : "./temp/images/headerLogo.png"
+    },
+    "mh.khop" : {
+      "name" : "Khopoli Municipal Council",
+      "logo" : "./temp/images/khopoli.jpg"
+    },
+    "mh.amba" : {
+      "name" : "Ambarnath Municipal Council",
+      "logo" : "./temp/images/ambarnath.logo.jpg"
+    },
+    "mh.aliba" : {
+      "name" : "Alibag Municipal Council",
+      "logo" : "./temp/images/alibag_logo.png"
+    },
+    "mh.pen0" : {
+      "name" : "Pen Municipal Council",
+      "logo" : "./temp/images/pen.png"
     }
 
   }
