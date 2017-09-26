@@ -31,6 +31,10 @@
     "mh.pen0" : {
       "name" : "Pen Municipal Council",
       "logo" : "./temp/images/pen.png"
+    },
+    "mh.soan" : {
+      "name" : "Saoner Municipal Council",
+      "logo" : "./temp/images/maha_logo.png"
     }
 
   }
